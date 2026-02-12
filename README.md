@@ -1,4 +1,4 @@
-# Module: CONNECTING TO AI AND ML APIs
+# CONNECTING TO AI AND ML APIs
 
 **Session Time:** 120 minutes 
 
