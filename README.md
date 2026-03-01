@@ -26,19 +26,10 @@ In this module, learners connect web applications to external AI models and APIs
 
 By the end of this module, participants will be able to:
 
-1. 
-**Integrate AI APIs** to securely send user input to external models.
-
-
+1. **Integrate AI APIs** to securely send user input to external models.
 2. **Construct** well-formed JSON payloads that control model behavior (parameters like temperature and tokens).
-3. 
-**Receive and Render** model outputs within a web application interface.
-
-
-4. 
-**Implement** a middleware layer to abstract API complexity and secure credentials.
-
-
+3. **Receive and Render** model outputs within a web application interface.
+4. **Implement** a middleware layer to abstract API complexity and secure credentials.
 
 ---
 
@@ -181,34 +172,9 @@ The response from an AI API is deeply nested. Accessing the actual text usually 
 
 * Node.js installed.
 * Postman installed.
-
-
 * An OpenAI API Key.
 
-
-
-### Step 1: Set up the Server
-
-Initialize a simple Node.js project and install `express`, `cors`, and `dotenv`.
-
-### Step 2: Create the Route
-
-Write a POST route `/api/chat` that accepts a JSON body: `{ "message": "Hello" }`.
-
-### Step 3: Integrate the API
-
-Inside the route, use `fetch` (or `axios`) to call OpenAI. Pass the user's message into the `messages` array.
-
-### Step 4: Test with Postman
-
-1. Open Postman.
-2. Create a POST request to `http://localhost:3000/api/chat`.
-3. **Body (JSON):** `{ "message": "Tell me a joke" }`.
-4. **Send:** verify you get a joke back in the response.
-
-### Step 5: Connect a Simple Frontend (Optional)
-
-Create an `index.html` with a button that calls your new local API, proving the end-to-end flow.
+**Refer**: [**Creating an AI Middleware Layer**](https://git.generalassemb.ly/build-ai-powered-web-apps/Lab4_Creating-an-AI-Middleware-Layer)
 
 ---
 
