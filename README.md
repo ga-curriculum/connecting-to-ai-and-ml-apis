@@ -174,7 +174,7 @@ The response from an AI API is deeply nested. Accessing the actual text usually 
 * Postman installed.
 * An OpenAI API Key.
 
-**Refer**: [**Creating an AI Middleware Layer**](https://git.generalassemb.ly/build-ai-powered-web-apps/Lab4_Creating-an-AI-Middleware-Layer)
+**Refer**: [**Creating an AI Middleware Layer**](https://github.com/ga-curriculum/lab4-creating-an-ai-middleware-layer)
 
 ---
 
